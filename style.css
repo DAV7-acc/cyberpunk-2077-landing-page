@@ -74,14 +74,14 @@
 }
 
 .icon-item--paint {
-  background-image: url(img/Vector.png);
+  background-image: url(Vector.png);
 }
 
 .icon-item--star {
-  background-image: url(img/Vector_2.png);
+  background-image: url(Vector_2.png);
 }
 .icon-item--gameplay {
-  background-image: url(img/Vector_3.png);
+  background-image: url(Vector_3.png);
 }
 
 /* секция коллаболрации Hp с cyberpunk 2077*/
@@ -143,13 +143,13 @@
     line-height: 30px;      
 }
 .icon-end--0 {
-  background-image: url(img/futlar.png);
+  background-image: url(futlar.png);
 }
 .icon-end--1 {
-  background-image: url(img/futlar_2.png);
+  background-image: url(futlar_2.png);
 }
 .icon-end--2 {
-  background-image: url(img/futlar_3.png);
+  background-image: url(futlar_3.png);
 }
 .text-right {
   display: flex;
