@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box
+}
+
+.main-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.logo-header,
+.social-links,
+.header-content-text {
+  position:  absolute;
+  z-index: 2;
+}
+
+.logo-header {
+  top: 4%;
+  left: 18%;
+  width: 15%;
+}
+.social-links {
+  display: flex;
+  top: 4%;
+  right: 10%;
+  gap: 20%;
+}
+.header-content-text {
+  bottom: 0%;
+  right: 15%;
+  background-color: #f8f200;
+  padding: 3%;
+  font-family: 'Archangelsk', monospace;
+  clip-path: polygon(
+    0 30px,                 
+    30px 0,               
+    100% 0,                  
+    100% calc(100% - 30px),    
+    calc(100% - 30px) 100%,   
+    0 100%                     
+);
+}
+
+.color-text {
+  display: inline-block;
+  background-color: black;
+  color: #f8f200;
+  padding: 3% 5%;
+  margin-top: 20px;
+}
+
+.реклама-блок{
+  margin-top: 100px;
+}
+
+.icon-item {
+    list-style: none;               
+    padding-left: 40px;                    
+    background-position: left;  
+    background-size: 24px;          
+    background-repeat: no-repeat;   
+    line-height: 24px;            
+}
+
+.icon-item--paint {
+  background-image: url(img/Vector.png);
+}
+
+.icon-item--star {
+  background-image: url(img/Vector_2.png);
+}
+.icon-item--gameplay {
+  background-image: url(img/Vector_3.png);
+}
+
+/* секция коллаболрации Hp с cyberpunk 2077*/
+.collab-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  gap: 2%;
+  background-color: #f8f200;
+  padding-top: 100px;
+  padding-bottom: 10%;
+}
+.text-more {
+    display: inline-block;
+  background-color: black;
+  color: #f8f200;
+  padding: 3% 5%;
+  margin-top: 3%;
+}
+.collab-left {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.collab-right {
+  width: 40%;
+}
+.icon-list {
+  padding-left: 0;
+  padding-top: 3%;
+  font-family: 'Roboto', monospace;
+}
+.h2-text {
+  padding-bottom: 3%;
+  font-size: clamp(28px, 4vw, 48px);
+  width: 75%;
+  font-family: 'Archangelsk', monospace;
+}
+.text-roboto {
+  font-family: 'Roboto', monospace;
+}
+
+.buy-game {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  padding-left: 0;
+  background-color: #000000;
+}
+
+.icon-end {
+    list-style: none;               
+    padding-left: 40px;                    
+    background-position: left;  
+    background-size: 24px;          
+    background-repeat: no-repeat;   
+    line-height: 30px;      
+}
+.icon-end--0 {
+  background-image: url(img/futlar.png);
+}
+.icon-end--1 {
+  background-image: url(img/futlar_2.png);
+}
+.icon-end--2 {
+  background-image: url(img/futlar_3.png);
+}
+.text-right {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 0;
+  padding-top: 5%;
+}
+.h2-3 {
+  font-size: clamp(28px, 4vw, 48px);
+  color: #ffffff;
+  font-family: 'Archangelsk', monospace;
+}
+.icon-endo {
+  padding-left: 0;
+  color: #ffffff;
+}
+.color-platform {
+  color: #52bedc;
+  font-size: clamp(14px, 4vw, 20px);
+}
+.between-up {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: clamp(14px, 4vw, 20px);
+}
+.color-text2 {
+  color: #52bedc;
+}
+.image-start {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.image-start img {
+    clip-path: polygon(
+    0 30px,                 
+    30px 0,               
+    100% 0,                  
+    100% calc(100% - 30px),    
+    calc(100% - 30px) 100%,   
+    0 100%                     
+);
+  object-fit: cover;
+}
+
+.image-start img:nth-child(2) {
+  margin-top: 100px;
+}
+.first-img {
+display: flex;
+flex-direction: column;
+}
+.start {
+  padding: 40px 20px;
+  width: 100%;
+  background-color: #ffffff;
+    background: linear-gradient(
+      #ffffff 0%,      
+        #ffffff 94%,     
+          #000000 100%    
+  );
+}
+.start-container {
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.text-start {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Archangelsk', monospace;
+}
+
+
+.vid-platform {
+  display: flex;
+  margin-top: 20px;
+  gap: 30%;
+}
+.four-platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.two-platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.platform {
+  margin-top: 20%;
+}
+.text-padding {
+  padding-top: 20px;
+}
+.color-cyberpunk {
+  color: #52bedc;
+}
+
+/* секция акции */
+.promotion-block {
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 15%;
+  background-color: black;
+  color: #ffffff;
+  background: linear-gradient(
+      #000000 0%,      
+        #000000 94%,     
+        #f8f200 100%    
+  );
+  padding-bottom:8%;
+}
+.реклама-акция {
+  display: flex;
+  font-family: 'Archangelsk', monospace;
+}
+.загловок-акция{
+  font-size: clamp(28px, 4vw, 48px);
+  padding-top: 5%;
+  padding-left: 2%;
+}
+
+
+
+.image-promotion {
+  padding-bottom: 3%;
+}
+.text-promotion {
+  font-family: 'Roboto', monospace;
+}
+
+.color1 {
+  color: #52bedc;
+}
+.color2 {
+  color: #52bedc;
+}
+.color3 { 
+  color: #52bedc;
+}
+
+/*footer*/
+.footer-end {
+  display: flex;
+  gap: 35%;
+  padding-top: 2%;
+}
+.footer-text {
+  display: flex;
+  gap: 5%;
+  white-space: nowrap;
+}
+.footer-image {
+  display: flex;
+  gap: 3%;
+  padding-left: 10%;
+}
+.end-of-end {
+  text-align: center;
+  padding-top: 1%;
+  color: #ffffff;
+  width: 100%;
+  background-color: #000000;
+  padding-bottom: 1%;
+}
+
+
+/*форма*/
+.form-image {
+  display: flex;
+  margin-top: 15%;
+  gap: 30%;
+}
+.cyber-forma {
+  width: 100%;
+  max-width: 500px;
+}
+.поле1 input,
+.поле2 input,
+.поле3 .drag-zone {
+      width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #777777; /* тонкая линия снизу */
+    color: #777777;
+    font-size: 18px;
+    padding: 12px 0;
+    margin-bottom: 30px;
+    outline: none;
+    transition: all 0.3s;
+    font-family: inherit;
+    font-family: 'Roboto', monospace;
+}
+.поле1 input::placeholder,
+.поле2 input::placeholder {
+    color: #666;
+    opacity: 1; /* Firefox */
+}
+.поле1 input:focus,
+.поле2 input:focus {
+    border-bottom-color: #52bedc
+}
+.поле3 {
+    margin-bottom: 30px;
+}
+.drag-zone {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    transition: all 0.3s;
+}
+.drag-zone:hover {
+    border-color: #0077ff;
+    box-shadow: 0 5px 20px rgba(0, 119, 255, 0.1);
+}
+.кибер-кнопка {
+  background-color: #f8f200;
+  color: #000000;
+  padding: 5%;
+  font-weight: bold;
+  font-family: 'Roboto', monospace;
+  font-size: clamp(15px, 4vw, 20px);
+}
